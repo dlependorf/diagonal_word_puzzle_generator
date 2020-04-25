@@ -304,10 +304,10 @@ server <- function(input, output) {
         if (nrow(selected_words()) > 0) {
             if (any(!is.na(selected_words()$long_word))==TRUE) {
                 real_puzzle_data <- selected_words() %>%
-                    select(long_word) %>%
+                    select(word_id, long_word) %>%
                     mutate(long_word=toupper(long_word),
                            long_word=str_split(long_word, "")) %>%
-                    unnest(long_word, .id="word_id") %>%
+                    unnest(long_word) %>%
                     group_by(word_id) %>%
                     mutate(letter_id=row_number()) %>%
                     ungroup() %>%
