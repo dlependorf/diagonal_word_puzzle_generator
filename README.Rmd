@@ -9,7 +9,7 @@ output:
 
 This Shiny dash helps generate a word puzzle by running through a dictionary to find matching pairs of words that fit the structure of the puzzle.
 
-![An example puzzle, without answers.](example_puzzle.png)
+![An example puzzle, without answers.](./example_puzzle.png)
 
 ## The Puzzle
 
