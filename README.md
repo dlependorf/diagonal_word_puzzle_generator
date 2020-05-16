@@ -9,7 +9,8 @@ Diagonal Word Puzzle Generator
 
 This Shiny dash helps generate a word puzzle by running through a
 dictionary to find matching pairs of words that fit the structure of the
-puzzle.
+puzzle. [Click here to try it
+out\!](https://dlependorf.shinyapps.io/diagonal_word_puzzle_generator/)
 
 ![An example puzzle, without answers.](./example_puzzle.png)
 
