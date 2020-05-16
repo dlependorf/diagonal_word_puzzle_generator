@@ -1,0 +1,12 @@
+name: diagonal_word_puzzle_generator
+title: diagonal_word_puzzle_generator
+username:
+account: dlependorf
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2186297
+bundleId: 3156513
+url: https://dlependorf.shinyapps.io/diagonal_word_puzzle_generator/
+when: 1589669685.47215
+asMultiple: FALSE
+asStatic: FALSE
